@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dating Website</title>
+    <style type="text/css">
+
+        fieldset{
+            border: 5px solid #fff500;
+            padding:0.05em 0.5em
+
+        }
+
+        </style>
+</head>
+<body>
+<h2>Dating Website</h2>
+
+<fieldset>
+    <legend>Your Face</legend>
+    <table>
+        <tr>
+
+            <td><label for="Your Image">Your Image:</label></td>
+
+            <td><input  type="file"
+                    id="Your Image"
+                    value="Picter">
+            </td>
+
+        </tr>
+        <tr>
+
+            <td><label>Image preview:</label></td>
+        </tr>
+    </table>
+</fieldset>
+
+<fieldset>
+    <legend>Your General Details</legend>
+    <table>
+        <tr>
+            <td><label for="Name">Name:</label></td>
+            <td><input type="text"
+                       id="Name"
+                       name="Name"
+                       required>
+
+        </tr>
+
+        <tr>
+
+            <td><label for="gender">Gender:</label></td>
+
+                <td><label for="gender"> Gender:</label>
+                <input id="gender"
+                       type="radio"
+                       name="gender"
+                       value="male"
+                       checked> Male
+                <input type="radio"
+                       name="gender"
+                       value="female">Female</td>
+        </tr>
+
+
+
+        <tr>
+            <td><label for="Age">Age:</label></td>
+            <td><input type="number"
+                       id="age"
+                       required>
+
+        </tr>
+
+        <tr>
+            <td><label for="Date">Date of brith:</label></td>
+            <td><input type="date"
+                       id="date"
+                       required>
+
+        </tr>
+
+        <tr>
+            <td><label for="Fcolor">Favorite color:</label></td>
+            <td><input type="color"
+                       id="Fcolor"
+                       required>
+
+        </tr>
+
+        <tr>
+            <td><label for="option1">Which country:</label></td>
+            <td><select id="option1">
+                <option value="USA">USA</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Canida">Canida</option>
+                <option value="UK">UK</option>
+                <option value="Others">Others</option>
+                <option value="no selection">no selection</option>
+            </select></td>
+
+
+        </tr>
+
+        <!--<tr>
+            <td><label for=""></label></td>
+            <td><input type=""
+                       id=""
+                       required>
+
+        </tr>-->
+
+    </table>
+</fieldset>
+
+<fieldset>
+    <legend>Your indicators</legend>
+    <table>
+        <tr>
+
+            <td><label for="hight">hight:short</label></td>
+
+            <td><input  type="range" min="0" max="100"
+                        id="hight"
+                        value="Picter">tall
+            </td>
+        </tr>
+        <tr>
+            <td><label for="salary">salary:poor</label></td>
+
+            <td><input  type="range" min="0" max="100"
+                        id="salary"
+                        value="Picter">rich
+            </td>
+
+    </table>
+</fieldset>
+<fieldset>
+    <table>
+    <legend>Your contact information</legend>
+    <tr>
+        <td><label for="email">Email</label></td>
+
+        <td><input type="email"
+                   id="email"
+                   required>
+    </tr>
+
+
+
+    <tr>
+        <td><label for="Mobile">Mobile</label></td>
+
+        <td><input type="tel"
+                   id="mobile"
+                   required>
+
+    </tr>
+
+        <tr>
+
+            <td><label for="address">Address</label></td>
+
+            <td><input type="text"
+                       id="address"
+                       required>
+
+
+        </tr>
+
+
+
+    </table>
+</fieldset>
+<td>
+    <input  type="submit"
+            id="sphereSubmit"
+            value="Submit">
+</td>
+
+</body>
+</html>
